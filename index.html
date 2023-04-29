@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>Contour Machine</title>
+</head>
+
+<body>
+    <header>
+        <h1>Duban Morales</h1>
+        <h2>CONTOUR MACHINE</h2>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/DubanMorales/Contour_Machine" target="_blank">GitHub</a></li>
+                <li><a href="https://example.com/" target="_blank">Bio</a></li>
+                <li><a href="https://example.com/" target="_blank">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="splash-container">
+            <a href="https://duban-morales-03-20-23.glitch.me" target="_blank">
+                <img src="images/Splash.png" alt="Splash Image">
+            </a>
+        </div>
+        <div class="description-container">
+            <p>Contour Machine is a software plug in that explores the
+                relationship between digital color and geometry in architectural
+                form making. Architecture as I know it typically focuses on generating form,
+                with color following as an afterthought. Contour Machine is structured to do
+                the opposite and takes color as it is understood digitally to be the primary factor
+                in developing form rather than an afterthought. The project begins with the most elemental
+                form of color on a screen: RGB color space. In this color model colors are compressed
+                against each other into a three-dimensional cube, and we are only able to experience it
+                from a surface level. Contour Machine allows you to enter the in between spaces created from
+                the transformation of a RGB cube.</p>
+        </div>
+        <div class="images-wrapper">
+            <div class="image-container">
+                <img src="images/axon.png" alt="Image 1">
+                <img src="images/top.png" alt="Image 2" class="image-2">
+                <img src="images/Elevation.png" alt="Image 3">
+            </div>
+            <div class="gif-container">
+                <img src="images/newgif.gif" alt="GIF Image">
+            </div>
+        </div>
+        <div class="carousel-container">
+            <div class="carousel">
+                <img src="16by9/32623_15.png" alt="Carousel Image 1" class="carousel-image">
+                <img src="16by9/32623_38.png" alt="Carousel Image 5" class="carousel-image">
+                <img src="16by9/32623_27.png" alt="Carousel Image 3" class="carousel-image">
+                <img src="16by9/32623_19.png" alt="Carousel Image 2" class="carousel-image">
+                <img src="16by9/32623_24.png" alt="Carousel Image 4" class="carousel-image">
+            </div>
+        </div>
+    </main>
+    <script>
+        const carousel = document.querySelector('.carousel');
+    
+        carousel.addEventListener('click', () => {
+            carousel.classList.toggle('paused');
+        });
+    </script>
+</body>
+
+</html>
