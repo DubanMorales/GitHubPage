@@ -61,7 +61,7 @@ nav a {
     justify-content: space-between;
     align-items: center;
     margin: 20px auto;
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .image-container img {
